@@ -1,0 +1,32 @@
+:root{
+--color:#3720aa;
+--shadowColor: rgb(0, 0, 0);
+--shadowSpread:0;
+}
+body{
+background-color: #E5E0FF;
+}
+.container{
+    border: 6px solid #8EA7E9;
+    height:700px;
+    width:700px;
+    margin: 4% auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 700px;
+    height: 700px;
+    background-color: var(--color);
+    box-shadow: 0px 0px var(--shadowSpread) var(--shadowColor);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid #8EA7E9;
+    background-color: #E5E0FF;
+    width: 600px;
+    margin: auto;
+}
